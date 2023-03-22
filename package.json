@@ -1,0 +1,35 @@
+{
+  "name": "com.all.plugins",
+  "displayName": "All",
+  "version": "1.0.0",
+  "description": "A sample Apache Cordova application that responds to the deviceready event.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "ecosystem:cordova"
+  ],
+  "author": "Apache Cordova Team",
+  "license": "Apache-2.0",
+  "devDependencies": {
+    "cordova-android": "^10.1.2",
+    "cordova-browser": "^6.0.0",
+    "cordova-plugin-advanced-websocket": "^1.1.6",
+    "cordova-plugin-device": "file:../PLUGINS/cordova-plugin-device",
+    "cordova-plugin-statusbar": "file:../PLUGINS/cordova-plugin-statusbar"
+  },
+  "cordova": {
+    "platforms": [
+      "browser"
+    ],
+    "plugins": {
+      "cordova-plugin-device": {},
+      "cordova-plugin-statusbar": {},
+      "cordova-plugin-advanced-websocket": {}
+    }
+  },
+  "dependencies": {
+    "pusher-js": "^7.1.1-beta"
+  }
+}
